@@ -129,7 +129,7 @@ namespace ImGuizmo
    // return true if mouse cursor is over any gizmo control (axis, plan or screen component)
    IMGUI_API bool IsOver();
 
-   // return true if mouse IsOver or if the gizmo is in moving state
+   // return true if the gizmo is in moving state
    IMGUI_API bool IsUsing();
 
    // enable/disable the gizmo. Stay in the state until next call to Enable.
